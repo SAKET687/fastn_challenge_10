@@ -45,7 +45,7 @@ link: /
 link: /
 
 -- ds.header-link: Category
-link: #category
+link: /#category
 
 -- ds.header-link: Contact 
 link: /
@@ -57,11 +57,11 @@ width: hug-content
 
 -- ds.phosphor-icon-button: Login
 icon: user
-link: /login
+link: /#
 
 -- ds.phosphor-icon-button: Sign Up
 icon: sign-in
-link: /sign-in
+link: /#
 
 -- end: ds.row
 

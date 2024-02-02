@@ -32,13 +32,13 @@ width: fill-container
 spacing: $ds.spaces.horizontal-gap.extra-large
 
 -- ds.header-link: Home
-link: /index
+link: /
 
 -- ds.header-link: About
 link: /
 
 -- ds.header-link: Category
-link: /index#category
+link: /#category
 
 -- ds.header-link: Contact 
 link: #

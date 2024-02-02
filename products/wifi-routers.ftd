@@ -85,6 +85,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 📶 Elevate Your Connectivity with the SwiftConnect Pro Router: High-Performance, Reliable, and Packed with Advanced Features! 🌐
 -- ds.heading-tiny: Say goodbye to dead zones and slow connections. SwiftConnect Pro ensures seamless internet access for all your devices. 🚀
 align: center
+-- ds.fine-print: Price: INR 3,199
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

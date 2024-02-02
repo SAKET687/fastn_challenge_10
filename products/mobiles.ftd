@@ -85,6 +85,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 📱 Feature-Rich Smartphone X: Experience Innovation in the Palm of Your Hand 🌟
 -- ds.heading-tiny: Discover the latest in smartphone technology with our Feature-Rich Smartphone X. Packed with cutting-edge features, it's designed to enhance your daily life! 🚀
 align: center
+-- ds.fine-print: Price: INR 61,599 (15% off)
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

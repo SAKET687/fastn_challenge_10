@@ -85,6 +85,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 🎒 Carry in Style with the Voyager Pro Laptop Bag: Premium Quality, Spacious Design, and Ultimate Durability for Your Tech Essentials! 🌟
 -- ds.heading-tiny: Perfect for everyday use or business trips. Explore the Voyager Pro for a blend of fashion and functionality. 🚀
 align: center
+-- ds.fine-print: Price: INR 2,499
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

@@ -85,6 +85,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 🖱️ Wireless Mouse Pro: Ergonomic Design for Comfort and Precision 🌟
 -- ds.heading-tiny: Enjoy a tangle-free workspace with our advanced wireless mouse. Fast and accurate, it's the perfect companion for productivity and gaming! 🚀
 align: center
+-- ds.fine-print: Price: INR 1,299
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

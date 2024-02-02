@@ -86,6 +86,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 🚀 Unleash Innovation with the Quantum Fusion Pro X-75: A Cutting-Fu Ultrabook 💻 Featuring High-Performance Specifications, Ultra-HD Display, and Sleek Design for Unparalleled Productivity and Entertainment Experiences! 🌟
 -- ds.heading-tiny: Expected delivery by next Monday! 🚚
 align: center
+-- ds.fine-print: Price: INR 81,999
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

@@ -85,6 +85,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: ⌚ Discover the TechWear Pro: Your Ultimate Smartwatch Companion for Fitness, Notifications, and Style! 🌟
 -- ds.heading-tiny: Stay connected and track your fitness goals with TechWear Pro. This sleek smartwatch combines cutting-edge technology with a stylish design, offering a seamless blend of functionality and fashion. 🚀
 align: center
+-- ds.fine-print: Price: INR 2,799 (25% off)
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

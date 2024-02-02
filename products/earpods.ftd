@@ -86,6 +86,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 🎧 Wireless Earpods Pro: Premium Sound Quality and Comfortable Fit for an Immersive Audio Experience 🌟
 -- ds.heading-tiny: Available in stylish colors to suit your personality! 🎨
 align: center
+-- ds.fine-print: Price: INR 1,899 (20% off)
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

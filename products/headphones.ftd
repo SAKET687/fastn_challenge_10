@@ -85,6 +85,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 🎧 Immerse Yourself in Sound with the SonicWave Pro Headphones: Premium Audio Quality, Comfortable Design, and Cutting-Edge Technology for an Enhanced Listening Experience! 🌟
 -- ds.heading-tiny: Elevate your music, gaming, and podcast experience with SonicWave Pro. Designed for comfort and performance, these headphones deliver exceptional sound quality and style. 🚀
 align: center
+-- ds.fine-print: Price: INR 2,999
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

@@ -85,6 +85,7 @@ shadow: $ds.shadow.large
 -- ds.heading-small: 📱 Explore the TechTab Pro: Your Ultimate Tablet Experience for Productivity and Entertainment! 🌟
 -- ds.heading-tiny: Whether for work or play, TechTab Pro offers a versatile tablet experience with a stunning display, powerful performance, and a sleek design. 🚀
 align: center
+-- ds.fine-print: Price: INR 51,699
 
 -- ds.phosphor-icon-button: Add to Cart
 icon: shopping-cart

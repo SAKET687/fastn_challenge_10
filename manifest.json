@@ -62,48 +62,48 @@
     },
     "products/accessories.ftd": {
       "name": "products/accessories.ftd",
-      "checksum": "C338102E5DBD0EE74A8EDB95A814F2C1E6376213F5AD168A205962B0AED3C05E",
-      "size": 6435
+      "checksum": "3F4BE5952C7C83FA4633533A8EC0143237D0F7DDE1CEA86E41F164EA537EAC3C",
+      "size": 6471
     },
     "products/bags.ftd": {
       "name": "products/bags.ftd",
-      "checksum": "7844BBDC4B9200E18F04945C9C10EAEC987DD2A86244019F6CD8EC4E1D3B7751",
-      "size": 6641
+      "checksum": "E26E12F1553A4365C5F717DF8C04EE38D041227928CAB8C1D2ACF0F39BF67E4E",
+      "size": 6677
     },
     "products/earpods.ftd": {
       "name": "products/earpods.ftd",
-      "checksum": "FF7B0B93266F9E852F0F320C42C819D863CC45496F94DF07A75154163CFE522F",
-      "size": 6487
+      "checksum": "29DD77DE1B98A1ADB1FDB7EA3355B46ED73494B83E58075C56BF6B089D4FC502",
+      "size": 6533
     },
     "products/headphones.ftd": {
       "name": "products/headphones.ftd",
-      "checksum": "424ACE1F65EFC52D6E31F2C1DAF8A791C8B1BF541533BB34876AFD21176C2E44",
-      "size": 6778
+      "checksum": "29AAD90EA5A94988D077758BA1BB7B6A3D2AF2EA3333B1998160F73237F18CA9",
+      "size": 6814
     },
     "products/laptops.ftd": {
       "name": "products/laptops.ftd",
-      "checksum": "6FB1B2DF08227723FEB6653546A2BF0E8CE93AF9F9D1ABCA0547F32C593DD2F1",
-      "size": 7868
+      "checksum": "4213658E33B719FDEF93E7FC20D6430C4ECE6492424FF51EB022D3C4FAF02986",
+      "size": 7905
     },
     "products/mobiles.ftd": {
       "name": "products/mobiles.ftd",
-      "checksum": "DA1F31EC39E1A8B4F8447BAF9D88936352C985BCB956FC9D044E6EAEC977B281",
-      "size": 6513
+      "checksum": "A2DD2FEA52DBB9D876A290E241A267DDD7B95C385D121F5C440DF28EADD5758F",
+      "size": 6560
     },
     "products/smart-watches.ftd": {
       "name": "products/smart-watches.ftd",
-      "checksum": "ADFB3446E27D48139E6335093CB3BB9BA7DE531F8B1288A035B14514F6F9B3C2",
-      "size": 6656
+      "checksum": "3C979CE9CCB3AD68D7EB2F2DF77B50A0DA2CE90E0E22E8FA8B1BDE272008C251",
+      "size": 6702
     },
     "products/tablets.ftd": {
       "name": "products/tablets.ftd",
-      "checksum": "2C0A4129A2E2FF767D4C7B715B3D259260E67BFEF07844086C972162188E516B",
-      "size": 6729
+      "checksum": "95CF224E9E16B51FFF1F01E931E2AC028E7CCA8C83C3A492025A077F872CD003",
+      "size": 6766
     },
     "products/wifi-routers.ftd": {
       "name": "products/wifi-routers.ftd",
-      "checksum": "BB7EFBDAFB5C8847DB698515BC05263982A54C6FE0F1EFE21C47F13A6F725269",
-      "size": 6927
+      "checksum": "138D8300D41FAE80B02E3BB3EA31A3D70AE63B846BAD73132B500B1637CA39E7",
+      "size": 6963
     },
     "vercel.json": {
       "name": "vercel.json",
@@ -111,6 +111,6 @@
       "size": 177
     }
   },
-  "zip_url": "https://github.com/SAKET687/fastn_challenge_10/archive/5e38b92340e5aa7f5fd4a4b899675cd65d46091a.zip",
-  "checksum": "97D142AD7AB97E209F50A35C71F55C52C1E1A19F1C040CF5106B4300112BD8FC"
+  "zip_url": "https://github.com/SAKET687/fastn_challenge_10/archive/17d550a8cd5cdfc6c10258108f664e6ca3388d53.zip",
+  "checksum": "020D99670463542C9F0035CFB4F28F87ADDB64351DB9457B99AE8802BB371859"
 }

@@ -1,0 +1,235 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- Product-Img-title:
+
+-- description:
+
+-- Customer-Reviews-and-Ratings:
+
+-- footer:
+
+-- end: ds.page
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.code
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: SwiftCart
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ds.header-link: Home
+link: /index
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Category
+link: /index#category
+
+-- ds.header-link: Contact 
+link: #
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: #
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: #
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; Product-Img-title Component --------------------------------------------------------------
+
+-- component Product-Img-title:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+outer-background.solid: $ds.colors.background.step-2
+flush: full
+
+-- ftd.image: /images/bag.jpeg
+width.fixed.percent: 50 
+border-radius.px: 20
+shadow: $ds.shadow.large
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+shadow: $ds.shadow.large
+
+-- ds.heading-small: 🎒 Carry in Style with the Voyager Pro Laptop Bag: Premium Quality, Spacious Design, and Ultimate Durability for Your Tech Essentials! 🌟
+-- ds.heading-tiny: Perfect for everyday use or business trips. Explore the Voyager Pro for a blend of fashion and functionality. 🚀
+align: center
+
+-- ds.phosphor-icon-button: Add to Cart
+icon: shopping-cart
+link: #
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: Product-Img-title
+
+;; --------------------------------------------------------------------------------------
+
+;; description component -------------------------------------------------------------------
+
+-- component description:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+
+-- ds.heading-medium: Product Description: 
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-tiny: The Voyager Pro Laptop Bag is designed to meet the demands of modern life. Crafted from high-quality materials, it offers a perfect blend of style and functionality.
+
+-- ds.heading-tiny: Key Features: Spacious compartments to accommodate laptops up to 15 inches, Durable and water-resistant exterior for added protection, Multiple pockets for organizing accessories and essentials, Padded shoulder straps and back panel for comfort, Sleek and professional design suitable for any occasion and Premium zippers and hardware for long-lasting use
+
+-- ds.heading-tiny: Whether you're heading to the office, traveling, or simply commuting, the Voyager Pro ensures your tech essentials are secure and easily accessible.
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: description
+
+;; --------------------------------------------------------------------------------------
+
+;; Customer-Reviews-and-Ratings Section -------------------------------------------------------------------
+
+-- component Customer-Reviews-and-Ratings:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+-- ds.heading-small: Customer Reviews and Ratings:
+
+-- ds.section-row:
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "The Voyager Pro Laptop Bag is fantastic! It not only looks stylish but is also incredibly practical. The compartments are well-designed, providing easy access to my laptop and accessories. Highly recommended for professionals!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "I've been using the Voyager Pro for a month, and it has exceeded my expectations. The quality is excellent, and it has enough room for all my tech gadgets. The durability and style make it a perfect companion for my daily commute."
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "This laptop bag is a game-changer! It's not only stylish but also functional. The durability is outstanding, and it keeps my laptop and accessories organized. I'm very impressed with the Voyager Pro."
+align: center
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Customer-Reviews-and-Ratings
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: SwiftCart: Your Swift Shopping Solution!
+icon: shopping-cart
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------

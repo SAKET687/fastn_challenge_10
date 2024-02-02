@@ -1,0 +1,475 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- First-Section:
+
+-- About:
+
+-- Category:
+
+-- Special-Offers:
+
+-- note:
+
+-- footer:
+
+-- end: ds.page
+
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.code
+spacing: $ds.spaces.horizontal-gap.space-between
+
+
+-- ds.heading-large: SwiftCart
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+
+-- ds.header-link: Home
+link: /
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Category
+link: #category
+
+-- ds.header-link: Contact 
+link: /
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: /login
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: /sign-in
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; First-Section Component --------------------------------------------------------------
+
+-- component First-Section:
+
+-- ds.section-row:
+outer-background.solid: $ds.colors.background.step-1
+flush: full
+
+-- ds.column:
+shadow: $ds.shadow.small
+
+-- ds.heading-small: Welcome to SwiftCart! 🛍️ Your go-to destination for a seamless shopping experience. Navigate through our user-friendly interface to explore a wide range of products. Whether you're looking for electronics, fashion, or home goods, SwiftCart has it all.
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: First-Section
+
+;; --------------------------------------------------------------------------------------
+
+;; About component -------------------------------------------------------------------
+
+-- component About:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-1
+
+-- ds.heading-small: About: 
+
+-- ds.heading-tiny: Discover exclusive deals and trending products in our featured collection. Elevate your shopping journey with SwiftCart, where quality meets affordability. Click the call-to-action buttons to explore our latest offers! Explore our diverse product categories to find exactly what you need. From cutting-edge electronics to stylish apparel, SwiftCart brings you a curated selection for every lifestyle. Get a sneak peek into our curated selection of top-selling and new arrival products. SwiftCart ensures you stay ahead with the latest trends and innovations. Shop smart with SwiftCart's special-offers. Take advantage of ongoing sales and discounts, making your shopping experience even more delightful.
+align: center
+
+-- end: ds.section-column
+
+-- end: About
+
+;; --------------------------------------------------------------------------------------
+
+;; Category component --------------------------------------------------------------------
+
+-- component Category:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-1
+
+-- ftd.text: Categories to explore:
+id: category
+region: h1
+style: underline, bold
+
+
+-- ds.section-row:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+-- ftd.image: ./images/laptop.jpeg
+width.fixed.percent: 65
+height.fixed.px: 175
+border-radius.px: 15
+alt: Laptop Image for Rep
+
+-- ds.heading-small: Laptop
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/laptops
+
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+
+-- ftd.image: ./images/tablet.jpeg
+width.fixed.percent: 45
+height.fixed.px: 200
+border-radius.px: 15
+
+-- ds.heading-small: Tablets
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/tablets
+
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+
+-- ftd.image: ./images/mobile.jpeg
+width.fixed.percent: 39
+height.fixed.px: 185
+border-radius.px: 15
+
+
+-- ds.heading-small: Smart Phones
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/mobiles
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- ds.section-row:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+-- ftd.image: ./images/smart-watch.jpeg
+width.fixed.percent: 50
+height.fixed.px: 215
+border-radius.px: 15
+
+-- ds.heading-small: Smart Watches
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/smart-watches
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+-- ftd.image: ./images/earpod.jpeg
+width.fixed.percent: 40
+height.fixed.px: 215
+border-radius.px: 15
+
+-- ds.heading-small: Earpods
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/earpods
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+-- ftd.image: ./images/gaming-accessories.jpeg
+width.fixed.percent: 35
+height.fixed.px: 215
+border-radius.px: 15
+
+-- ds.heading-small: Gaming Accessories
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/accessories
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- ds.section-row:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+-- ftd.image: ./images/router.jpeg
+width.fixed.percent: 45
+height.fixed.px: 205
+border-radius.px: 15
+
+-- ds.heading-small: Wifi Routers
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/wifi-routers
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+-- ftd.image: ./images/bag.jpeg
+width.fixed.percent: 40
+height.fixed.px: 205
+border-radius.px: 15
+
+-- ds.heading-small: Bags
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/bags
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-2
+
+-- ftd.image: ./images/headphone.jpeg
+width.fixed.percent: 50
+height.fixed.px: 205
+border-radius.px: 15
+
+-- ds.heading-small: Headphones
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/headphones
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Category
+
+;; --------------------------------------------------------------------------------------
+
+
+;; Special-Offers component --------------------------------------------------------------------
+
+-- component Special-Offers:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+-- ftd.text: Special Offers:
+region: h1
+style: underline, bold
+
+-- ds.section-row:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ftd.image: ./images/mobile.jpeg
+width.fixed.percent: 40
+height.fixed.px: 200
+border-radius.px: 15
+
+-- ds.heading-small: Smart Phones
+align: center
+-- ds.heading-tiny: (Upto 25% off)
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/mobiles
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ftd.image: ./images/smart-watch.jpeg
+width.fixed.percent: 50
+height.fixed.px: 215
+border-radius.px: 15
+
+-- ds.heading-small: Smart Watches
+align: center
+-- ds.heading-tiny: (Upto 30% off)
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/smart-watches
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.extra-large
+background.solid: $ds.colors.background.step-1
+
+-- ftd.image: ./images/earpod.jpeg
+width.fixed.percent: 40
+height.fixed.px: 200
+border-radius.px: 15
+
+-- ds.heading-small: Earpods
+align: center
+-- ds.heading-tiny: (Upto 25% off)
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+link: /products/earpods
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Special-Offers
+
+;; --------------------------------------------------------------------------------------
+
+;; Note Component -----------------------------------------------------------------------
+
+-- component note:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+
+
+-- ds.primary-button: This website is built using the 'design-system' package of `fastn`, a full-stack web framework.
+link: https://github.com/fastn-community/design-system/
+radius: curved
+
+-- end: ds.section-column
+
+-- end: note
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: SwiftCart: Your Swift Shopping Solution!
+icon: shopping-cart
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------
+
+
+

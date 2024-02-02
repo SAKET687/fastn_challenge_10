@@ -1,0 +1,235 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- Product-Img-title:
+
+-- description:
+
+-- Customer-Reviews-and-Ratings:
+
+-- footer:
+
+-- end: ds.page
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.code
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: SwiftCart
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ds.header-link: Home
+link: /index
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Category
+link: /index#category
+
+-- ds.header-link: Contact 
+link: #
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: #
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: #
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; Product-Img-title Component --------------------------------------------------------------
+
+-- component Product-Img-title:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+outer-background.solid: $ds.colors.background.step-2
+flush: full
+
+-- ftd.image: /images/smart-watch.jpeg
+width.fixed.percent: 50 
+border-radius.px: 20
+shadow: $ds.shadow.large
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+shadow: $ds.shadow.large
+
+-- ds.heading-small: ⌚ Discover the TechWear Pro: Your Ultimate Smartwatch Companion for Fitness, Notifications, and Style! 🌟
+-- ds.heading-tiny: Stay connected and track your fitness goals with TechWear Pro. This sleek smartwatch combines cutting-edge technology with a stylish design, offering a seamless blend of functionality and fashion. 🚀
+align: center
+
+-- ds.phosphor-icon-button: Add to Cart
+icon: shopping-cart
+link: #
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: Product-Img-title
+
+;; --------------------------------------------------------------------------------------
+
+;; description component -------------------------------------------------------------------
+
+-- component description:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+
+-- ds.heading-medium: Product Description: 
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-tiny: TechWear Pro is the ultimate smartwatch designed to enhance your lifestyle. 
+
+-- ds.heading-tiny: Key features include:Monitor your steps, heart rate, and sleep patterns for a healthier you. Stay connected with call, message, and app notifications right on your wrist. Sleek and customizable design to match your personal style. Wear it anywhere, from the gym to a swim, without worry. Enjoy extended usage with efficient power management. Easily navigate through features with a responsive touchscreen.
+
+-- ds.heading-tiny: Whether you're a fitness enthusiast or someone who values staying connected on the go, TechWear Pro is the perfect companion for your daily adventures.
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: description
+
+;; --------------------------------------------------------------------------------------
+
+;; Customer-Reviews-and-Ratings Section -------------------------------------------------------------------
+
+-- component Customer-Reviews-and-Ratings:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+-- ds.heading-small: Customer Reviews and Ratings:
+
+-- ds.section-row:
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Fitness Enthusiast's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "TechWear Pro is a game-changer for my fitness journey. Accurate tracking, stylish design, and long battery life make it the ideal companion. The notifications keep me connected without distractions. Highly recommended!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Tech Savvy's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "As a tech enthusiast, I'm impressed with the TechWear Pro's features. The touchscreen is responsive, and the customizable design allows me to express my style. It seamlessly integrates into my daily routine."
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: On-the-Go User's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "TechWear Pro is my daily companion. The water-resistant feature is a lifesaver, and the battery life is fantastic. It's comfortable, stylish, and keeps me organized. I can't imagine my day without it!"
+align: center
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Customer-Reviews-and-Ratings
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: SwiftCart: Your Swift Shopping Solution!
+icon: shopping-cart
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------

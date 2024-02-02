@@ -1,0 +1,235 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- Product-Img-title:
+
+-- description:
+
+-- Customer-Reviews-and-Ratings:
+
+-- footer:
+
+-- end: ds.page
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.code
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: SwiftCart
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ds.header-link: Home
+link: /index
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Category
+link: /index#category
+
+-- ds.header-link: Contact 
+link: #
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: #
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: #
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; Product-Img-title Component --------------------------------------------------------------
+
+-- component Product-Img-title:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+outer-background.solid: $ds.colors.background.step-2
+flush: full
+
+-- ftd.image: /images/tablet.jpeg
+width.fixed.percent: 50 
+border-radius.px: 20
+shadow: $ds.shadow.large
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+shadow: $ds.shadow.large
+
+-- ds.heading-small: 📱 Explore the TechTab Pro: Your Ultimate Tablet Experience for Productivity and Entertainment! 🌟
+-- ds.heading-tiny: Whether for work or play, TechTab Pro offers a versatile tablet experience with a stunning display, powerful performance, and a sleek design. 🚀
+align: center
+
+-- ds.phosphor-icon-button: Add to Cart
+icon: shopping-cart
+link: #
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: Product-Img-title
+
+;; --------------------------------------------------------------------------------------
+
+;; description component -------------------------------------------------------------------
+
+-- component description:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+
+-- ds.heading-medium: Product Description: 
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-tiny: TechTab Pro is a high-performance tablet designed to enhance your digital experience. 
+
+-- ds.heading-tiny: Key Features: Enjoy a 10.5-inch Super AMOLED display for vibrant colors and sharp details. Equipped with a fast octa-core processor for seamless multitasking and smooth performance. USB-C, Bluetooth 5.0, and Wi-Fi ensure quick and reliable connections. Stay productive and entertained all day with extended battery life. Carry your tablet effortlessly with its slim and lightweight design. Dual speakers with Dolby Atmos deliver immersive audio for movies and games. Features like facial recognition and a fingerprint sensor provide easy and secure access.
+
+-- ds.heading-tiny: Whether you're a professional on the go or someone who loves entertainment on a portable device, TechTab Pro is your perfect companion.
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: description
+
+;; --------------------------------------------------------------------------------------
+
+;; Customer-Reviews-and-Ratings Section -------------------------------------------------------------------
+
+-- component Customer-Reviews-and-Ratings:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+-- ds.heading-small: Customer Reviews and Ratings:
+
+-- ds.section-row:
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Tablet Enthusiast's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "TechTab Pro exceeds expectations! The display is stunning, and the performance is top-notch. Whether for work or watching movies, it's a versatile tablet that fits seamlessly into my lifestyle. Highly recommended!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Tech Lover's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "As a tech enthusiast, I'm impressed with the TechTab Pro's features. The slim design, powerful processor, and vivid display make it a joy to use. It's become my go-to device for both work and entertainment."
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: On-the-Go User's Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "TechTab Pro is my travel companion. The lightweight design and long battery life make it perfect for on-the-go use. Whether it's watching movies during flights or working remotely, it never disappoints."
+align: center
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Customer-Reviews-and-Ratings
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: SwiftCart: Your Swift Shopping Solution!
+icon: shopping-cart
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------

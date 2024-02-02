@@ -1,0 +1,237 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- Product-Img-title:
+
+-- description:
+
+-- Customer-Reviews-and-Ratings:
+
+-- footer:
+
+-- end: ds.page
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.code
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: SwiftCart
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ds.header-link: Home
+link: /index
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Category
+link: /index#category
+
+-- ds.header-link: Contact 
+link: #
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: #
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: #
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; Product-Img-title Component --------------------------------------------------------------
+
+-- component Product-Img-title:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+outer-background.solid: $ds.colors.background.step-2
+flush: full
+
+-- ftd.image: /images/gaming-accessories.jpeg
+width.fixed.percent: 50 
+border-radius.px: 20
+shadow: $ds.shadow.large
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+shadow: $ds.shadow.large
+
+-- ds.heading-small: 🖱️ Wireless Mouse Pro: Ergonomic Design for Comfort and Precision 🌟
+-- ds.heading-tiny: Enjoy a tangle-free workspace with our advanced wireless mouse. Fast and accurate, it's the perfect companion for productivity and gaming! 🚀
+align: center
+
+-- ds.phosphor-icon-button: Add to Cart
+icon: shopping-cart
+link: #
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: Product-Img-title
+
+;; --------------------------------------------------------------------------------------
+
+;; description component -------------------------------------------------------------------
+
+-- component description:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+
+-- ds.heading-medium: Product Description: 
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-tiny: Our Wireless Mouse Pro is designed for comfort and precision. With its ergonomic design, it provides a comfortable grip for extended use, reducing strain on your hand.
+
+-- ds.heading-tiny: The advanced wireless technology ensures a fast and reliable connection, allowing you to move freely without the hassle of cables. The precise optical sensor offers accurate tracking on various surfaces.
+
+-- ds.heading-tiny: Key Features: Ergonomic design for comfort & Wireless technology for freedom of movement & Precise optical sensor for accurate tracking & Suitable for work and gaming
+
+-- ds.heading-tiny: Upgrade your workspace with the Wireless Mouse Pro for a seamless and efficient computing experience!
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: description
+
+;; --------------------------------------------------------------------------------------
+
+;; Customer-Reviews-and-Ratings Section -------------------------------------------------------------------
+
+-- component Customer-Reviews-and-Ratings:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+-- ds.heading-small: Customer Reviews and Ratings:
+
+-- ds.section-row:
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "The Wireless Mouse Pro is fantastic! It's comfortable to use for long hours, and the wireless feature is a game-changer. Highly recommended for both work and gaming!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "Sleek and precise! This mouse exceeded my expectations. The ergonomic design makes it easy on the hand, and the wireless connection is reliable. Great value for the price!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "I love my Wireless Mouse Pro! It's sleek, responsive, and the battery life is impressive. Makes my work much more enjoyable. Definitely a must-have!"
+align: center
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Customer-Reviews-and-Ratings
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: SwiftCart: Your Swift Shopping Solution!
+icon: shopping-cart
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------

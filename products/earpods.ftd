@@ -1,0 +1,240 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- Product-Img-title:
+
+-- description:
+
+-- Customer-Reviews-and-Ratings:
+
+-- footer:
+
+-- end: ds.page
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.code
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: SwiftCart
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ds.header-link: Home
+link: /index
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Category
+link: /index#category
+
+-- ds.header-link: Contact 
+link: #
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: #
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: #
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; Product-Img-title Component --------------------------------------------------------------
+
+-- component Product-Img-title:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+outer-background.solid: $ds.colors.background.step-2
+flush: full
+
+-- ftd.image: /images/earpod.jpeg 
+width.fixed.percent: 50 
+height.fixed.px: 350
+border-radius.px: 20
+shadow: $ds.shadow.large
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+shadow: $ds.shadow.large
+
+-- ds.heading-small: 🎧 Wireless Earpods Pro: Premium Sound Quality and Comfortable Fit for an Immersive Audio Experience 🌟
+-- ds.heading-tiny: Available in stylish colors to suit your personality! 🎨
+align: center
+
+-- ds.phosphor-icon-button: Add to Cart
+icon: shopping-cart
+link: #
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: Product-Img-title
+
+;; --------------------------------------------------------------------------------------
+
+;; description component -------------------------------------------------------------------
+
+-- component description:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+
+-- ds.heading-medium: Product Description: 
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-tiny: Our Wireless Earpods Pro offer a premium sound quality and a comfortable fit for an immersive audio experience. With advanced Bluetooth technology, these earpods provide a seamless wireless connection.
+
+-- ds.heading-tiny: The earpods come in a stylish design and are available in various colors to suit your personality. The ergonomic design ensures a secure and comfortable fit, making them ideal for extended use.
+
+-- ds.heading-tiny: The wireless charging case provides convenience and allows you to enjoy your favorite music on the go. Whether you're commuting, working out, or relaxing, these earpods deliver crystal-clear sound.
+
+-- ds.heading-tiny: Features: Premium sound quality & Comfortable and secure fit & Wireless charging case & Stylish design
+
+-- ds.heading-tiny: Upgrade your audio experience with our Wireless Earpods Pro!
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: description
+
+;; --------------------------------------------------------------------------------------
+
+;; Customer-Reviews-and-Ratings Section -------------------------------------------------------------------
+
+-- component Customer-Reviews-and-Ratings:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+-- ds.heading-small: Customer Reviews and Ratings:
+
+-- ds.section-row:
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "These earpods exceeded my expectations! The sound quality is exceptional, and the wireless charging case is a game-changer. Highly recommended!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "Stylish and comfortable! I love the design options and how well they fit. The sound is clear, and the wireless charging feature makes them convenient."
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Customer Review:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "Great value for the price! The earpods deliver impressive audio quality, and the wireless charging case is a handy addition. Definitely worth it!"
+align: center
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Customer-Reviews-and-Ratings
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: SwiftCart: Your Swift Shopping Solution!
+icon: shopping-cart
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------

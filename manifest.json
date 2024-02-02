@@ -1,0 +1,116 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "4E065033E7BBCA2A85CEC99312224F03FB067CC3F76267195042D65199BE8CA1",
+      "size": 206
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "86FC8F4BC63D8B3B72C8E476766E12D0CF1E53470412B897C220C7DB02E2E998",
+      "size": 20
+    },
+    "images/bag.jpeg": {
+      "name": "images/bag.jpeg",
+      "checksum": "6A8CB7D3F3022D942520AF0454F4C8316B830B9C75834E6CFCFEEF52508C4661",
+      "size": 92374
+    },
+    "images/earpod.jpeg": {
+      "name": "images/earpod.jpeg",
+      "checksum": "BDB2D198028ABCF71A3977EB43414E240CD6FBC528BD80934B1A6E2BA92288C0",
+      "size": 38951
+    },
+    "images/gaming-accessories.jpeg": {
+      "name": "images/gaming-accessories.jpeg",
+      "checksum": "C4FCD023B0CE1C1B5CDE27FB74834AE6ACAE021B54511995B967F5A5D3E1B11D",
+      "size": 98929
+    },
+    "images/headphone.jpeg": {
+      "name": "images/headphone.jpeg",
+      "checksum": "06DA9C5DDA31D3510C61948E01EC86CF2CCC311235F76C08A5041C1E2C3FD085",
+      "size": 57150
+    },
+    "images/laptop.jpeg": {
+      "name": "images/laptop.jpeg",
+      "checksum": "D615B5D61734B346469EDA7EF16EAE0CF00C26AD459A0243E36E86086FA1BF55",
+      "size": 126858
+    },
+    "images/mobile.jpeg": {
+      "name": "images/mobile.jpeg",
+      "checksum": "A1E67AA6B47B2400528760C3949AE9C92A9ABB961F2823854BFB9860BFC8B2F9",
+      "size": 83522
+    },
+    "images/router.jpeg": {
+      "name": "images/router.jpeg",
+      "checksum": "4B7EDD9AA188AC52E4681418E805C56D7975F195D32F22C79A6F693EDBFA7D64",
+      "size": 37820
+    },
+    "images/smart-watch.jpeg": {
+      "name": "images/smart-watch.jpeg",
+      "checksum": "DB3BB83B087A5E9AE0C6C6F0C7B17F6FFE59C5C8EC8167E2F6C73A212B5CFA79",
+      "size": 79345
+    },
+    "images/tablet.jpeg": {
+      "name": "images/tablet.jpeg",
+      "checksum": "7F2990521F2ED4E6B90FDB1BEFA92F82B7C0CD288CF311129B93CD5BE11DB1BE",
+      "size": 90329
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "D7DF68885BA23D3779E260FE0BC08DAA8DBF99D46C6600E6D9905F0C10050E11",
+      "size": 10679
+    },
+    "products/accessories.ftd": {
+      "name": "products/accessories.ftd",
+      "checksum": "06F65037F4B097364E5CEE191229BED15BE215CB2654A80EE61B6E005A8EB267",
+      "size": 6445
+    },
+    "products/bags.ftd": {
+      "name": "products/bags.ftd",
+      "checksum": "7E57DE746AAEF1FFFD2C5979AF96E486C95D99F23ACB9E4DD3ADE4AB339B16F2",
+      "size": 6651
+    },
+    "products/earpods.ftd": {
+      "name": "products/earpods.ftd",
+      "checksum": "D434C0273BA2E9B9F36AD27AB82398F21ED551D222FF95F2B8591C360A3F298E",
+      "size": 6497
+    },
+    "products/headphones.ftd": {
+      "name": "products/headphones.ftd",
+      "checksum": "CA233915E81919117E9D8B6553CA655B84FB924D65F99496110E6C5D6FE52980",
+      "size": 6788
+    },
+    "products/laptops.ftd": {
+      "name": "products/laptops.ftd",
+      "checksum": "072457C9052023A3F44201BB7097CD8EFCC2366F40A3405A5382CCAB36663EC8",
+      "size": 7878
+    },
+    "products/mobiles.ftd": {
+      "name": "products/mobiles.ftd",
+      "checksum": "1A25A1AC8E9C5041673C92F578E74ABB87F807EF6F113FC3675439B7C76E2248",
+      "size": 6523
+    },
+    "products/smart-watches.ftd": {
+      "name": "products/smart-watches.ftd",
+      "checksum": "F241FB5FDFAA4004948B5F01BFCE34D0959DCF6BA6816DA808EA9B8B6541528F",
+      "size": 6666
+    },
+    "products/tablets.ftd": {
+      "name": "products/tablets.ftd",
+      "checksum": "135E36225A273E24FF173AEE22C0228FA2DCF5BD254B1C3773F2F8976202C301",
+      "size": 6739
+    },
+    "products/wifi-routers.ftd": {
+      "name": "products/wifi-routers.ftd",
+      "checksum": "AF273666342247D06BF2D07C135727E725BFCF5A5FA15DC0D7829F82634C6C0F",
+      "size": 6937
+    },
+    "vercel.json": {
+      "name": "vercel.json",
+      "checksum": "DA7505BE441C7788CC025AF04A6AB4C1F157AD45F76004A3FF3878BA4E9837A1",
+      "size": 177
+    }
+  },
+  "zip_url": "https://github.com/SAKET687/fastn_challenge_10/archive/7fbb3723a2268d4567d703d636e4a1b7bc487b74.zip",
+  "checksum": "41315D954183CDFA6EA3C57435345675AC50610BBDDFFD0B830445782B2E974A"
+}

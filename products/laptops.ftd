@@ -1,0 +1,248 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- Product-Img-title:
+
+-- description:
+
+-- Customer-Reviews-and-Ratings:
+
+-- footer:
+
+-- end: ds.page
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.code
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: SwiftCart
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ds.header-link: Home
+link: /index
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Category
+link: /index#category
+
+-- ds.header-link: Contact 
+link: #
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: #
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: #
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; Product-Img-title Component --------------------------------------------------------------
+
+-- component Product-Img-title:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+outer-background.solid: $ds.colors.background.step-2
+flush: full
+
+-- ftd.image:
+src: /images/laptop.jpeg
+width.fixed.percent: 50 
+border-radius.px: 20
+shadow: $ds.shadow.large
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+shadow: $ds.shadow.large
+
+-- ds.heading-small: 🚀 Unleash Innovation with the Quantum Fusion Pro X-75: A Cutting-Fu Ultrabook 💻 Featuring High-Performance Specifications, Ultra-HD Display, and Sleek Design for Unparalleled Productivity and Entertainment Experiences! 🌟
+-- ds.heading-tiny: Expected delivery by next Monday! 🚚
+align: center
+
+-- ds.phosphor-icon-button: Add to Cart
+icon: shopping-cart
+link: #
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: Product-Img-title
+
+;; --------------------------------------------------------------------------------------
+
+;; description component -------------------------------------------------------------------
+
+-- component description:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+
+-- ds.heading-medium: Product Description: 
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-tiny: Quantum Fusion Pro X-75 is a high-performance laptop that combines sleek design with powerful features. Its slim aluminum chassis and backlit keyboard offer a sophisticated and portable experience.
+
+-- ds.heading-tiny: Featuring a 15.6-inch 4K OLED display, the Quantum Fusion Pro X-75 delivers stunning visuals with vibrant colors and sharp contrasts. The slim bezels maximize screen real estate for an immersive view.
+
+-- ds.heading-tiny: Powered by an Intel Core i7 processor and NVIDIA GeForce RTX graphics, the Quantum Fusion Pro X-75 ensures seamless multitasking, smooth graphics, and swift data access with up to 32GB of RAM and a fast SSD.
+
+-- ds.heading-tiny: With Thunderbolt 4, USB-C, HDMI, and an SD card reader, this laptop accommodates various peripherals. Wi-Fi 6, Bluetooth 5.2, and Gigabit Ethernet provide fast and reliable connectivity.
+
+-- ds.heading-tiny: Tuned by audio experts, the Quantum Fusion Pro X-75's speakers deliver high-fidelity sound with Dolby Atmos technology for an immersive audio experience.
+
+-- ds.heading-tiny: Designed for professionals on the move, the Quantum Fusion Pro X-75 offers impressive battery life and fast-charging capabilities.
+
+-- ds.heading-tiny: Biometric authentication features like a fingerprint sensor and facial recognition, along with a dedicated hardware security chip, enhance data protection.
+
+-- ds.heading-tiny: Pre-loaded with the user-friendly QuantumOS, the Quantum Fusion Pro X-75 provides a seamless interface optimized for its powerful hardware.
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: description
+
+;; --------------------------------------------------------------------------------------
+
+;; Customer-Reviews-and-Ratings Section -------------------------------------------------------------------
+
+-- component Customer-Reviews-and-Ratings:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-2
+
+-- ds.heading-small: Customer Reviews and Ratings:
+
+-- ds.section-row:
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Raj's Tech Take:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "The Quantum Fusion Pro X-75 is a game-changer! Asha here, and this laptop has seamlessly blended style with powerful features. The 4K OLED display left me in awe, and the performance with the Intel Core i7 processor is unmatched. The sleek design and fast-charging battery make it my go-to for work and entertainment. Kudos to the Quantum Fusion team!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Raj's Tech Take:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "The Quantum Fusion Pro X-75 is a game-changer! Asha here, and this laptop has seamlessly blended style with powerful features. The 4K OLED display left me in awe, and the performance with the Intel Core i7 processor is unmatched. The sleek design and fast-charging battery make it my go-to for work and entertainment. Kudos to the Quantum Fusion team!"
+align: center
+
+-- end: ds.column
+
+-- ds.column:
+shadow: $ds.shadow.large
+background.solid: $ds.colors.background.step-1
+
+-- ds.heading-medium: Raj's Tech Take:
+align: center
+-- ds.fine-print: Ratings: ⭐⭐⭐⭐
+align: center
+-- ds.heading-tiny: "The Quantum Fusion Pro X-75 is a game-changer! Asha here, and this laptop has seamlessly blended style with powerful features. The 4K OLED display left me in awe, and the performance with the Intel Core i7 processor is unmatched. The sleek design and fast-charging battery make it my go-to for work and entertainment. Kudos to the Quantum Fusion team!"
+align: center
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Customer-Reviews-and-Ratings
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: SwiftCart: Your Swift Shopping Solution!
+icon: shopping-cart
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------
+
+
